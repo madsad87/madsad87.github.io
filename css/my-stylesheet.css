@@ -1,0 +1,36 @@
+html {
+    background-image: url(http://images.8tracks.com/cover/i/001/901/850/stormy-ocean_with_symbol-1231.jpg?rect=38,0,1074,1074&q=98&fm=jpg&fit=max&w=1024&h=1024);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*header start*/
+
+header img{
+    float: left;
+}
+
+header nav{
+    float: right;
+    color: #ffffff;
+    font-size: 30;
+    margin-top: 15px
+}
+
+/*header finish*/
+
+
+#landing {
+    background-image: url(http://24.media.tumblr.com/tumblr_m1fq6emLty1qbmqmro10_1280.jpg);
+    width: 80%;
+    height: 50%;
+    color: darkgoldenrod;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-position: center;
+    background: contain;
+    background-repeat: no-repeat; 
+}
