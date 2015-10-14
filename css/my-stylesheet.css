@@ -1,30 +1,51 @@
 html {
-    background-image: url(http://images.8tracks.com/cover/i/001/901/850/stormy-ocean_with_symbol-1231.jpg?rect=38,0,1074,1074&q=98&fm=jpg&fit=max&w=1024&h=1024);
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    background-image: url(http://www.mondespersistants.com/images/screenshots/Guild_Wars_2-306423022.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    
 }
 
 /*header start*/
 
 header img{
+    border: solid;
+    border-color: #ff00ff;
+    border-width: 3px;
     float: left;
+    
 }
 
 header nav{
+    border: solid;
+    border-color: #ff00ff;
+    border-width: 3px;
     float: right;
     color: #ffffff;
     font-size: 30;
-    margin-top: 15px
+    margin-top: 15px;
+   
+}
+
+header nav a{
+    text-decoration: none;
+    color:goldenrod;
+    
 }
 
 /*header finish*/
 
 
 #landing {
+    border: solid;
+    border-color: #ff00ff;
+    border-width: 3px;
     background-image: url(http://24.media.tumblr.com/tumblr_m1fq6emLty1qbmqmro10_1280.jpg);
-    width: 80%;
-    height: 50%;
+    width: 100%;
+    height: 70%;
     color: darkgoldenrod;
     float: left;
     margin-left: auto;
@@ -34,3 +55,63 @@ header nav{
     background: contain;
     background-repeat: no-repeat; 
 }
+
+#post-landing{
+    border: solid;
+    border-color: #ff00ff;
+    border-width: 3px;
+    display: inline-block;
+    width: 100%;
+    height: 40%;
+}
+
+#post-landing img{
+    border: solid;
+    border-color: #ff00ff;
+    border-width: 3px;
+    float: left;
+    height: 100%;
+    width: 25%;
+}
+
+#post-landing p{
+    border: solid;
+    border-color: yellow;
+    border-width: 3px;
+    float: right;
+    height: 75%;
+    width: 70%;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.child {
+    padding-top: 5%;
+}
+
+#four-pillars {
+    height: 60%;
+}
+
+#piller-head {
+    border: solid;
+    border-color: limegreen;
+    border-width: 3px;
+    clear: both;
+    height: 9.5%;
+    width: 99%;
+    text-align: center
+        
+}
+
+.pillar {
+    width: 24.5%;
+    height: 90%;
+    border: solid;
+    border-color: red;
+    border-width: 3px;
+    display: inline-block;
+}
+
+
