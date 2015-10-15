@@ -52,7 +52,7 @@ header nav a{
     border: solid;
     border-color: #ff00ff;
     border-width: 3px;
-    background-image: url(http://24.media.tumblr.com/tumblr_m1fq6emLty1qbmqmro10_1280.jpg);
+    background-image: url();
     width: 100%;
     height: 70%;
     color: darkgoldenrod;
@@ -129,7 +129,7 @@ header nav a{
 
 .pillar {
     width: 24%;
-    height: 90%;
+    height: 70%;
     border: solid;
     border-color: red;
     border-width: 3px;
