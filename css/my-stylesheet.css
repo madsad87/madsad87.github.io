@@ -8,6 +8,14 @@ html {
     height: 100%;
     
 }
+/*CLEAR FIX MODULE*/
+.clear-fix:after {
+    content: '';
+    display:block;
+    clear: both
+}
+/*CLEAR FIX MODULE*/
+
 
 /*header start*/
 
@@ -38,6 +46,7 @@ header nav a{
 
 /*header finish*/
 
+/*landing start*/
 
 #landing {
     border: solid;
@@ -55,6 +64,10 @@ header nav a{
     background: contain;
     background-repeat: no-repeat; 
 }
+
+/*landing finish*/
+
+/*post landing start*/
 
 #post-landing{
     border: solid;
@@ -84,25 +97,32 @@ header nav a{
     text-align: center;
     font-size: 30px;
     color: aliceblue;
+    background-color: #000000
 }
 
 .child {
     padding-top: 5%;
 }
 
+/*post landing finish*/
+
+/*pillar start*/
+
 #four-pillars {
     height: 60%;
 }
 
-#piller-head {
+#pillar-head {
     border: solid;
     border-color: limegreen;
     border-width: 3px;
     clear: both;
     height: 9.5%;
-    width: 99%;
-    text-align: center
-        
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 100% 100% rgba(0,0,0,.5) inset
+    
 }
 
 .pillar {
@@ -112,6 +132,8 @@ header nav a{
     border-color: red;
     border-width: 3px;
     display: inline-block;
+    align-content: center;
+    text-align: center;
 }
 
-
+/*pillar finish*/
