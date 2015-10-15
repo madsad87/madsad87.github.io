@@ -95,7 +95,7 @@ header nav a{
     height: 75%;
     width: 70%;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.3em;
     color: goldenrod;
     box-shadow: 1600px 1066px rgba(0,0,0,.6) inset;
 }
@@ -120,7 +120,7 @@ header nav a{
     width: 30%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 36px;
+    font-size: 1.7em;
     text-align: center;
     box-shadow: 1600px 1066px rgba(0,0,0,.6) inset;
     color: goldenrod
@@ -128,7 +128,7 @@ header nav a{
 }
 
 .pillar {
-    width: 24.5%;
+    width: 24%;
     height: 90%;
     border: solid;
     border-color: red;
@@ -138,13 +138,18 @@ header nav a{
     text-align: center;
     box-shadow: 1600px 1066px rgba(0,0,0,.6) inset;
     color: goldenrod;
-    font-size: 24;
+    font-size: 1.2em;
+}
+
+.pillar img{
+    height: 40%;
+    width: auto
 }
 
 .pillar a {
     color: goldenrod;
     text-decoration: none;
-    font-size: 30
+    font-size: 1.3em;
 }
 
 /*pillar finish*/
