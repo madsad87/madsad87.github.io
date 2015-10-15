@@ -1,5 +1,5 @@
 html {
-    background-image: url(http://www.mondespersistants.com/images/screenshots/Guild_Wars_2-306423022.jpg);
+    background-image: url(http://orig02.deviantart.net/3032/f/2012/251/4/2/guild_wars_2_art_4_by_artfall-d5e0ayw.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -40,7 +40,7 @@ header nav{
 
 header nav a{
     text-decoration: none;
-    color:goldenrod;
+    color: #000000;
     
 }
 
@@ -96,8 +96,8 @@ header nav a{
     width: 70%;
     text-align: center;
     font-size: 30px;
-    color: aliceblue;
-    background-color: #000000
+    color: goldenrod;
+    box-shadow: 1600px 1066px rgba(0,0,0,.6) inset;
 }
 
 .child {
@@ -116,12 +116,14 @@ header nav a{
     border: solid;
     border-color: limegreen;
     border-width: 3px;
-    clear: both;
     height: 9.5%;
-    width: 100%;
-    font-size: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36px;
     text-align: center;
-    box-shadow: 100% 100% rgba(0,0,0,.5) inset
+    box-shadow: 1600px 1066px rgba(0,0,0,.6) inset;
+    color: goldenrod
     
 }
 
@@ -134,6 +136,15 @@ header nav a{
     display: inline-block;
     align-content: center;
     text-align: center;
+    box-shadow: 1600px 1066px rgba(0,0,0,.6) inset;
+    color: goldenrod;
+    font-size: 24;
+}
+
+.pillar a {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 30
 }
 
 /*pillar finish*/
