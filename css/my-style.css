@@ -1,6 +1,6 @@
 html {
     font-family: 'jacques francois', serif;
-    background: black;
+    background: url(https://d3b4yo2b5lbfy.cloudfront.net/wp-content/uploads/wallpapers/CharrBarr-1920x1200.jpg) fixed center no-repeat;
     
     
 }
@@ -13,6 +13,7 @@ html, body, main {
 .t3xt {
     font-family: 'jacques francois', serif;
     color: goldenrod;
+    text-shadow: 2px 2px #000
     
 }
 
@@ -40,6 +41,7 @@ html, body, main {
     }
 }
 
+/*  HERO  */
 #hero {
     background: url(http://i.imgur.com/TZhEeN6.jpg) ;
     background-position: center;
@@ -68,6 +70,8 @@ html, body, main {
     font-size: 1.5em;
     margin-bottom: 50px;
 }
+
+/*  Navbar  */
 
 .navbar {
     background-color: rgba(255,255,255,.0);
@@ -108,4 +112,10 @@ html, body, main {
 
 .image-responsive {
     width: 100%;
+}
+
+#m3d14 {
+    
+    background-image: url(http://www.incomeactivator.com/images/freebg5.jpg)
+    
 }
