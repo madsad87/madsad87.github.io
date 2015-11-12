@@ -7,14 +7,25 @@ html, body, main {
     height: 100%
 }
 
+/*Text Mods/Gobal Font*/
+.t3xt {
+    font-family: 'jacques francois', serif;
+    color: goldenrod;
+}
+
+.c0nt3nt {
+    font-size: 1.5em;
+    margin-top: 5%;
+}
+
+
 /* Phone Responsive */
 
 @media (max-width:768px) {
     
     #hero h1 {
         font-size: 2em;
-    }
-
+  }  
 }
 
 /* Tablet Responsive */
@@ -61,7 +72,7 @@ html, body, main {
     font-size: 1.5em;
     text-shadow: #000 1px 1px;
     box-shadow: inset 1500px 1500px rgba(0,0,0,0.2);
-    border: solid 1px transparent
+    border: transparent
     
 }
 
@@ -89,4 +100,8 @@ html, body, main {
 
 #kraken {
     margin-top: -125px
+}
+
+.image-responsive {
+    width: 100%;
 }
