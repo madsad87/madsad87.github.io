@@ -1,6 +1,6 @@
 html {
     font-family: 'jacques francois', serif;
-    background: #000;
+    background: black;
     
     
 }
@@ -13,7 +13,7 @@ html, body, main {
 .t3xt {
     font-family: 'jacques francois', serif;
     color: goldenrod;
-    text-align: center;
+    
 }
 
 .c0nt3nt {
@@ -27,7 +27,7 @@ html, body, main {
 
 @media (max-width:768px) {
     
-    #hero h1 {
+    #agg  {
         font-size: 2em;
   }  
 }
@@ -35,7 +35,7 @@ html, body, main {
 /* Tablet Responsive */
 
 @media (min-width: 769px) and (max-width: 992px) {
-    #hero h1 {
+    #agg {
         font-size: 4em; 
     }
 }
