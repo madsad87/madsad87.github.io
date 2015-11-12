@@ -1,6 +1,8 @@
 html {
     font-family: 'jacques francois', serif;
-    background-color: black;
+    background: #000;
+    
+    
 }
 
 html, body, main {
@@ -11,11 +13,13 @@ html, body, main {
 .t3xt {
     font-family: 'jacques francois', serif;
     color: goldenrod;
+    text-align: center;
 }
 
 .c0nt3nt {
     font-size: 1.5em;
     margin-top: 5%;
+    
 }
 
 
