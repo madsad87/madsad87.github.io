@@ -1,0 +1,50 @@
+html, body, main {
+    height: 100%
+}
+
+/* Phone Responsive */
+@media (max-width:768px) {
+    
+    #hero h1 {
+        font-size: 2em;
+    }
+
+}
+
+/* Tablet Responsive */
+@media (min-width: 769px and max-width: 992px) {
+    #hero h1 {
+        font-size: 4em; 
+    }
+}
+
+#hero {
+    background: url(http://i.imgur.com/TZhEeN6.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    height: 100%;
+    text-align: center;
+    color: goldenrod;
+}
+
+#hero h1 {
+    font-size: 6em;
+}
+
+.navbar {
+    background-color: rgba(255,255,255,.0);
+    
+}
+
+
+.center-vertical {
+    height: 500px;
+    display: table;
+}
+
+.center-vertical > div {
+    display: table-cell;
+    vertical-align: middle;
+}
