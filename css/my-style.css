@@ -1,8 +1,13 @@
+html {
+    font-family: 'jacques francois', serif;
+}
+
 html, body, main {
     height: 100%
 }
 
 /* Phone Responsive */
+
 @media (max-width:768px) {
     
     #hero h1 {
@@ -12,7 +17,8 @@ html, body, main {
 }
 
 /* Tablet Responsive */
-@media (min-width: 769px and max-width: 992px) {
+
+@media (min-width: 769px) and (max-width: 992px) {
     #hero h1 {
         font-size: 4em; 
     }
@@ -27,15 +33,40 @@ html, body, main {
     height: 100%;
     text-align: center;
     color: goldenrod;
+    font-family: 'Jacques Francois', serif;
+
 }
 
 #hero h1 {
     font-size: 6em;
+    text-shadow: #000 2px 2px;
+}
+
+#hero h3 {
+    font-size: 3em;
+    text-shadow: #000 2px 2px;
+}
+
+#hero button {
+    background-color: #000000;
+    font-size: 1.5em;
+    margin-bottom: 50px;
 }
 
 .navbar {
     background-color: rgba(255,255,255,.0);
+    font-family: 'Jacques Francois', serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-shadow: #000 1px 1px;
     
+}
+
+.navbar-brand {
+    font-family: 'Jacques Francois', serif;
+    font-weight: 600;
+    font-size: 1.8em;
+    text-shadow: #000 1px 1px;
 }
 
 
@@ -47,4 +78,12 @@ html, body, main {
 .center-vertical > div {
     display: table-cell;
     vertical-align: middle;
+}
+
+#kraken img {
+    height: 300px;
+}
+
+#kraken {
+    margin-top: -125px
 }
