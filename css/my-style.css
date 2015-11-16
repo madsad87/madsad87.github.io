@@ -28,8 +28,8 @@ html, body, main {
 
 @media (max-width:768px) {
     
-    #agg  {
-        font-size: 2em;
+    #hero h1  {
+        font-size: 4em;
   }  
 }
 
@@ -111,6 +111,12 @@ button {
 
 #kraken {
     margin-top: -125px
+}
+
+.stream-preview {
+    height: 350px;
+    width: auto;
+    
 }
 
 .image-responsive {
