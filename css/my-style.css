@@ -103,6 +103,7 @@ main button {
     
 }
 
+
 .image-responsive {
     width: 100%;
 }
@@ -153,6 +154,12 @@ main button {
   }  
 }
 
+@media (max-width:768px) {
+    
+    #kraken img {
+        height: 200px;
+    }
+}
 
 /* Tablet Responsive */
 
