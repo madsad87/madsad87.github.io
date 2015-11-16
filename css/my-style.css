@@ -65,10 +65,13 @@ html, body, main {
     text-shadow: #000 2px 2px;
 }
 
-#hero button {
+button {
     background-color: #000000;
     font-size: 1.5em;
     margin-bottom: 50px;
+    color: goldenrod;
+    font-family: 'jacques francois';
+    width: 200px;
 }
 
 /*  Navbar  */
@@ -118,4 +121,8 @@ html, body, main {
     
     background-image: url(http://www.incomeactivator.com/images/freebg5.jpg)
     
+}
+
+#st0r3 button {
+    margin: 30px;
 }
