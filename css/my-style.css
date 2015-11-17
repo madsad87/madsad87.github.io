@@ -78,6 +78,15 @@ main button {
     text-shadow: #000 1px 1px;
 }
 
+#revenant {
+    background-image: url(https://dviw3bl0enbyw.cloudfront.net/uploads/forum_attachment/file/181277/Revenant_Blindfold_concept_art__compressed_.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    
+}
 
 .center-vertical {
     height: 500px;
@@ -102,7 +111,6 @@ main button {
     width: auto;
     
 }
-
 
 .image-responsive {
     width: 100%;
@@ -138,6 +146,10 @@ main button {
     height: 100%;
 }
 
+.gw2imgs{
+   visibility:hidden;
+}
+
 
 /* XXX MEDIA QUERY XXX*/
 
@@ -154,12 +166,6 @@ main button {
   }  
 }
 
-@media (max-width:768px) {
-    
-    #kraken img {
-        height: 200px;
-    }
-}
 
 /* Tablet Responsive */
 

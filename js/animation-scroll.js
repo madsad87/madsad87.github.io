@@ -4,16 +4,25 @@ $(document).ready(function () {
         
         var verticalScroll = $(this).scrollTop();
         
-        if(verticalScroll >= 2900) {
+        if (verticalScroll >= 1000) {
             
-            $('.in-left').addClass('animated zoomInLeft infinite');
-        }
+            $('.in-left').addClass('animated zoomInLeft');
         
-        if(verticalScroll >= 2900) {
-            
-            $('.in-right').addClass('animated zoomInLeft infinite');
+        
+            $('.in-right').addClass('animated zoomInRight');
         }
         
     });
 });
 
+$(function(){
+    $(window).scroll(function() { 
+        if ($(this).scrollTop() > 1000) { 
+            $(".gw2imgs:hidden").css('visibility','visible');   
+            $(".gw2imgs:hidden").fadeIn('slow');  
+        } 
+        else {     
+            $(".gw2imgs:visible").fadeOut("slow"); 
+        }  
+    });
+});
