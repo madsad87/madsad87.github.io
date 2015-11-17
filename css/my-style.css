@@ -131,6 +131,8 @@ main button {
     margin-right: 100px;
 }
 
+/*   responsive iframe videos   */
+
 .videoWrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
